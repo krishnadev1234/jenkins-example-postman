@@ -1,7 +1,7 @@
 pipeline {
-  agent agent {
+  agent {
      label 'Slave-01'
-   }
+  }
   stages {
     stage('run collection') {
       steps {
